@@ -13,7 +13,7 @@ let package = Package(
             targets: ["SongDetailsInterface"]),
     ],
     dependencies: [
-        .package(name: commonModels, path: "../../../\(commonModels)")
+        .package(name: commonModels, path: "\(commonModels)")
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
